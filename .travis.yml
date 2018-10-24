@@ -1,0 +1,17 @@
+language: java
+sudo: enabled
+git:
+    quiet: true
+
+
+#Safelist
+branches:
+  only:
+    -master
+
+
+jobs:
+  include:
+    -stage: Test1
+     script: ./sudoku.java
+     script: ./SudokuP.java
