@@ -3,8 +3,7 @@ language: java
 git:
     quiet: true
 
-jdk:
-  -openjdk8
+
 
 #Safelist
 #branches:
