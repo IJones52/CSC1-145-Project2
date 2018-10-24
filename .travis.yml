@@ -10,8 +10,8 @@ branches:
     -master
 
 
-jobs:
-  include:
-    -stage: Test1
-     script: ./sudoku.java
-     script: ./SudokuP.java
+#jobs:
+#  include:
+#    -stage: Test1
+#     script: ./sudoku.java
+#     script: ./SudokuP.java
