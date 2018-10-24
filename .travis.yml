@@ -1,8 +1,10 @@
 language: java
-sudo: enabled
+#sudo: enabled
 git:
     quiet: true
 
+jdk:
+  -openjdk8
 
 #Safelist
 #branches:
