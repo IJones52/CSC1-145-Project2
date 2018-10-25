@@ -1,5 +1,6 @@
 language: java
 #sudo: enabled
+install: ant deps
 git:
     quiet: true
 
